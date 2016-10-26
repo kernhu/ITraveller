@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgc_app"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
+
+
+    <!--  <cn.com.mutual.traveller.tools.NimbleViewPager
+          android:id="@+id/area_view_pager"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_above="@id/area_tab_bar"
+          android:layout_below="@id/area_action_bar"
+          android:visibility="gone"
+          android:background="@color/bgc_app"></cn.com.mutual.traveller.tools.NimbleViewPager>-->
+    <FrameLayout
+        android:id="@+id/area_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgc_app"></FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/area_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/bgc_action_bar"
+        android:orientation="horizontal"></LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/area_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bgc_tab_bar"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"></LinearLayout>
+
+</RelativeLayout>

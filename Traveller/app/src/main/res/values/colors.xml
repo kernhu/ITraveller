@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--APP-->
+    <color name="bgc_app">#039fe9</color>
+    <color name="bgc_app_ii">#039fe9</color>
+    <color name="bgc_yellow_light">#dad2ab</color>
+    <color name="bgc_orange_dark">#e79c02</color>
+    <color name="bgc_withe">#ffffff</color>
+    <color name="bgc_dark">#cdcdcd</color>
+    <color name="bgc_blue_light">#99d2e5</color>
+    <color name="bgc_blue_dark">#FF87D3EC</color>
+    <color name="bgc_green_brisk">#35b876</color>
+    <color name="bgc_cray_light">#c8e19d</color>
+    <color name="bgc_red_brisk">#cf181d</color>
+    <color name="color_tab_text">#696969</color>
+
+    <!--Action bar-->
+    <color name="bgc_action_bar">#ea039fe9</color>
+    <color name="cl_action_text">#ffffff</color>
+
+    <!--Tab bar-->
+
+    <color name="bgc_tab_bar">#426fb2</color>
+    <color name="bgc_tab_bar_light">#EA78ABF5</color>
+    <color name="bgc_tab_selected">@color/bgc_orange_dark</color>
+    <color name="bgc_tab_normal">#ecf0f1</color>
+    <color name="cl_tab_text">@color/bgc_withe</color>
+</resources>

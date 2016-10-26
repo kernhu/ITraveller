@@ -1,0 +1,32 @@
+<resources>
+
+    <!--walkabout-->
+    <!--walkable-->
+    <!--walkpast-->
+    <string name="app_name">诗和远方</string>
+
+    <string name="msg_back_app">再按一次退出应用程式</string>
+
+    <!--Key-->
+    <string name="key_umeng">x</string>
+    <string name="key_wechat">x</string>
+
+    <!--tab-->
+    <string name="tab_home">主页</string>
+    <string name="tab_zone">空间</string>
+    <string name="tab_square">广场</string>
+    <string name="tab_mine">我的</string>
+    <!--login-->
+    <string name="login_title">登录</string>
+    <string name="register_title">加入诗和远方</string>
+
+    <!--home-->
+    <!--menu-->
+    <string name="menu_write">发表</string>
+    <string name="menu_draft">草稿</string>
+    <string name="menu_mark">收藏</string>
+    <string name="oauth_qq">QQ</string>
+    <string name="oauth_wx">微信</string>
+    <string name="oauth_zfb">支付宝</string>
+    <string name="oauth_wb">微博</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:drawable="@color/bgc_cray_light"></item>
+    <item android:drawable="@color/bgc_green_brisk" android:state_pressed="true"></item>
+
+    <!--    <item android:drawable="@color/bgc_dark" android:state_checked="false"></item>
+        <item android:drawable="@color/bgc_green_brisk" android:state_checked="true"></item>-->
+
+</selector>

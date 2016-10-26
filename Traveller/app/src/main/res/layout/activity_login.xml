@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/base_layout_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgc_app"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/login_action"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/login_action"
+        android:orientation="vertical">
+
+        <cn.com.mutual.traveller.view.BardianImageView
+            android:layout_width="124dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="50dp"
+            app:borderRadius="10dp"
+            app:src="@drawable/ic_login_image"
+            app:type="circle" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/login_account_labble"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="账号:"
+                android:textColor="@color/bgc_withe"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/login_account_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_toRightOf="@id/login_account_labble"
+                android:background="@null"
+                android:hint="邮箱/手机号/账号"
+                android:textColor="@color/bgc_withe"
+                android:textColorHint="@color/bgc_dark"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/login_account_box"
+                android:layout_toRightOf="@id/login_account_labble"
+                android:background="@color/bgc_withe" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/login_password_labble"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="密码:"
+                android:textColor="@color/bgc_withe"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/login_password_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_toRightOf="@id/login_password_labble"
+                android:background="@null"
+                android:hint="密码为6~12位字节"
+                android:inputType="textPassword"
+                android:textColor="@color/bgc_withe"
+                android:textColorHint="@color/bgc_dark"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/login_password_box"
+                android:layout_toRightOf="@id/login_password_labble"
+                android:background="@color/bgc_withe" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <CheckBox
+                android:id="@+id/login_mark_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="记住密码"
+                android:textColor="@color/bgc_withe"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/sel_bgc_login"
+                android:clickable="true"
+                android:paddingBottom="8dp"
+                android:paddingLeft="100dp"
+                android:paddingRight="100dp"
+                android:paddingTop="8dp"
+                android:text="登陆"
+                android:textColor="@color/bgc_withe"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/login_area_registor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/login_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:padding="2dp"
+                android:text="注册账号"
+                android:textColor="@color/bgc_withe"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:background="@color/bgc_withe" />
+
+            <TextView
+                android:id="@+id/login_retrieve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:padding="5dp"
+                android:text="找回密码"
+                android:textColor="@color/bgc_withe"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <SlidingDrawer
+        android:id="@+id/login_sliding"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:content="@+id/login_content"
+        android:handle="@+id/login_handle">
+
+        <RelativeLayout
+            android:id="@+id/login_handle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bgc_tab_bar"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:padding="10dp"
+                android:text="第三方登录"
+                android:textColor="@color/bgc_withe"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/login_drawer_close"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/action_menu_checked"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/login_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bgc_app_ii"
+            android:orientation="horizontal"></LinearLayout>
+
+    </SlidingDrawer>
+
+</RelativeLayout>

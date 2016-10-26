@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/base_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgc_app"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/register_action"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"></LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/register_account_labble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="昵        称:"
+            android:textColor="@color/bgc_withe"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/register_account_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_toRightOf="@id/register_account_labble"
+            android:background="@null"
+            android:hint="昵称即为你的账号"
+            android:textColor="@color/bgc_withe"
+            android:textColorHint="@color/bgc_dark"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/register_account_box"
+            android:layout_toRightOf="@id/register_account_labble"
+            android:background="@color/bgc_withe" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/register_password_labble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="密        码:"
+            android:textColor="@color/bgc_withe"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/register_password_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_toRightOf="@id/register_password_labble"
+            android:background="@null"
+            android:hint="密码为6~12位字节"
+            android:textColor="@color/bgc_withe"
+            android:textColorHint="@color/bgc_dark"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/register_password_box"
+            android:layout_toRightOf="@id/register_password_labble"
+            android:background="@color/bgc_withe" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/register_again_labble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="确认密码:"
+            android:textColor="@color/bgc_withe"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/register_again_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_toRightOf="@id/register_again_labble"
+            android:background="@null"
+            android:hint="密码为6~12位字节"
+            android:textColor="@color/bgc_withe"
+            android:textColorHint="@color/bgc_dark"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/register_again_box"
+            android:layout_toRightOf="@id/register_again_labble"
+            android:background="@color/bgc_withe" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/register_phone_labble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="手机号码:"
+            android:textColor="@color/bgc_withe"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/register_phone_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_toRightOf="@id/register_phone_labble"
+            android:background="@null"
+            android:hint=""
+            android:textColor="@color/bgc_withe"
+            android:textColorHint="@color/bgc_dark"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/register_phone_box"
+            android:layout_toRightOf="@id/register_phone_labble"
+            android:background="@color/bgc_withe" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+        <TextView
+            android:id="@+id/register_code_labble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="发送短信"
+            android:textColor="@color/bgc_withe"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/register_code_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_toLeftOf="@id/register_code_labble"
+            android:background="@null"
+            android:hint=""
+            android:textColor="@color/bgc_withe"
+            android:textColorHint="@color/bgc_dark"
+            android:textSize="15sp">
+
+
+        </EditText>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:background="@drawable/sel_bgc_login"
+        android:clickable="true"
+        android:paddingBottom="8dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:paddingTop="8dp"
+        android:text="注册"
+        android:textColor="@color/bgc_withe"
+        android:textSize="20sp" />
+
+</LinearLayout>

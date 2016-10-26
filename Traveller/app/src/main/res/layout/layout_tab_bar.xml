@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_control"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <RadioButton
+        android:id="@+id/tab_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@null"
+        android:button="@null"
+        android:drawableTop="@drawable/selector_mine"
+        android:gravity="center"
+        android:textColor="@color/cl_tab_text"
+        android:textSize="10sp" />
+
+    <RadioButton
+        android:id="@+id/tab_zone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@null"
+        android:button="@null"
+        android:clickable="true"
+        android:drawableTop="@drawable/selector_zone"
+        android:gravity="center"
+        android:textColor="@color/cl_tab_text"
+        android:textSize="10sp" />
+
+    <RadioButton
+        android:id="@+id/tab_square"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@null"
+        android:button="@null"
+        android:clickable="true"
+        android:drawableTop="@drawable/selector_home"
+        android:gravity="center"
+        android:textColor="@color/cl_tab_text"
+        android:textSize="10sp" />
+
+    <RadioButton
+        android:id="@+id/tab_mine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@null"
+        android:button="@null"
+        android:clickable="true"
+        android:drawableTop="@drawable/selector_square"
+        android:gravity="center"
+        android:textColor="@color/cl_tab_text"
+        android:textSize="10sp" />
+
+</RadioGroup>
