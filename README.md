@@ -11,3 +11,17 @@
 ![](https://github.com/KernHu/ITraveller/raw/master/images-folder/4.png)  
 ![](https://github.com/KernHu/ITraveller/raw/master/images-folder/5.png)  
 ![](https://github.com/KernHu/ITraveller/raw/master/images-folder/6.png)  
+
+
+## III: Contact me
+
+Email: vsky580@gmail.com  
+Facebook: https://www.facebook.com/kern.hu.580
+
+QQ群：812492960
+
+I'm kern....
+
+If it helps you,please give me a star.如果有帮助到你，请给我一个小星星。
+
+
